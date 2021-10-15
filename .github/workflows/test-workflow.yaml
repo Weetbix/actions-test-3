@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-workflow-1:
-    uses: Weetbix/actions-test-3/.github/workflows/reusable.yml@$GITHUB_SHA
+    uses: "Weetbix/actions-test-3/.github/workflows/reusable.yml@$GITHUB_SHA"
   test-job:
     name: test
     runs-on: ubuntu-latest
