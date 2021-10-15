@@ -1,0 +1,13 @@
+name: Reusable Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  test-job:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo Yep its working
+        shell: bash
